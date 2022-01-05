@@ -1,0 +1,13 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 5px;
+
+  .sidebar {
+    flex: 1 1 auto;
+  }
+
+  .messages-container {
+    flex: 2 1 auto;
+  }
+}
